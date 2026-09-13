@@ -139,9 +139,3 @@ zfs rollback warisan_pool/archives@snapshot-name
 zpool scrub warisan_pool
 ```
 
----
-
-## 📄 License & Attribution
-
-Materials developed for the **UKM Warisan TrueNAS Storage Administration Training**.  
-© Universiti Kebangsaan Malaysia (UKM) Warisan. All rights reserved.
