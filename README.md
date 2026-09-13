@@ -1,6 +1,6 @@
 # UKM Warisan — TrueNAS Storage Administration Training
 
-> **Enterprise Storage Administration for Beginners & Digital Heritage Preservation**  
+> **Enterprise Storage Administration**  
 > A 1-day, hands-on technical bootcamp focused on **TrueNAS SCALE** and **OpenZFS** storage architecture, data resilience, access control, disaster recovery, and preventive maintenance.
 
 ---
