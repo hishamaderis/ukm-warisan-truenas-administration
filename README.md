@@ -38,7 +38,7 @@ The training is structured into a 1-day intensive workshop (9:00 AM – 4:00 PM)
 | **13:00 – 14:00** | 🍱 *Lunch Break & Solat* | — | — |
 | **14:00 – 15:00** | **Module 4: Data Protection & Disaster Recovery** | Instant snapshots, hidden `.zfs/snapshot` access, one-click rollbacks, dataset cloning, replication tasks, 3-2-1 backup strategy | **Lab 3: Snapshots, Rollback & Recovery** |
 | **15:00 – 15:45** | **Module 5: System Health, Monitoring & Maintenance** | Alerts & email notifications, automated SMART tests, pool scrubs, configuration database backups, drive failure & resilvering | **Lab 4: Disk Failure & Resilvering Simulation** |
-| **15:45 – 16:00** | **Wrap-Up & Assessment** | Best practices checklist, interactive quiz review, Q&A | Course Wrap-Up |
+| **15:45 – 16:00** | **Wrap-Up & Q&A** | Best practices checklist, Q&A | Course Wrap-Up |
 
 ---
 
