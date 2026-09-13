@@ -17,6 +17,7 @@ UKM Warisan manages invaluable institutional digital assets—including high-res
 
 | File | Description |
 | :--- | :--- |
+| [**`SLIDES.pdf`**](SLIDES.pdf) | Ready-to-present compiled slide deck in PDF format. |
 | [**`SLIDES.md`**](SLIDES.md) | Full Marp-powered presentation deck covering Modules 0 through 5, architecture diagrams, lab walk-throughs, and review quizzes. |
 | [**`lab-preparation.md`**](lab-preparation.md) | Comprehensive step-by-step lab setup guide for VMware Workstation Pro/Player on both **Linux** and **Windows** hosts. |
 | [**`quick-reference.md`**](quick-reference.md) | One-page cheat sheet containing TrueNAS WebUI fast-finders and essential ZFS CLI commands (`zpool`, `zfs`). |
@@ -91,7 +92,8 @@ Before starting the workshop, participants must set up their local hypervisor fo
 
 ## 🖥️ How to View & Present the Slides
 
-The training slides in [**`SLIDES.md`**](SLIDES.md) are built using [Marp](https://marp.app/) (Markdown Presentation Ecosystem).
+- 📄 **Direct PDF Access**: Download or view the ready-to-present [**`SLIDES.pdf`**](SLIDES.pdf).
+- 📝 **Markdown Source**: The presentation slides in [**`SLIDES.md`**](SLIDES.md) are built using [Marp](https://marp.app/) (Markdown Presentation Ecosystem).
 
 ### Option 1: VS Code (Recommended)
 1. Install the **Marp for VS Code** extension (`marp-team.marp-vscode`).
