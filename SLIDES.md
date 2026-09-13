@@ -3,7 +3,7 @@ marp: true
 theme: default
 paginate: true
 header: "TrueNAS Administration Training | UKM Warisan"
-footer: "© UKM Warisan — TrueNAS Storage Administration for Beginners"
+footer: "© UKM Warisan — TrueNAS Storage Administration"
 style: |
   section {
     font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
