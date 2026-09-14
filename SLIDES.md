@@ -169,7 +169,7 @@ $$\text{Raw Physical Disks (HBA)} \longrightarrow \mathbf{OpenZFS} \text{ (Volum
 |  /warisan_pool/multimedia (Dataset: Custom Recordsize)      |
 |  /warisan_pool/vm-disk-01 (Zvol: Block device for iSCSI)    |
 +-------------------------------------------------------------+
-															|
+			       |
 +-------------------------------------------------------------+
 |                        ZFS POOL                             |
 |  (e.g., "warisan_pool" - aggregates capacity and IOPS)      |
