@@ -204,13 +204,10 @@ Never create a storage pool using non-redundant VDEVs (Stripe) for production ar
 | Topology | Min Disks | Fault Tolerance | Usable Capacity | Ideal Use Case |
 | :--- | :--- | :--- | :--- | :--- |
 | **Mirror** | 2 | 1 disk per pair (50%) | 50% | High IOPS, Databases, VMs |
-| **RAIDZ1** | 3 | 1 disk failure | $(N-1) \times \text{Disk Size}$ | Low budget, non-critical (Not recommended for $>4\text{TB}$ drives) |
+| **RAIDZ1** | 3 | 1 disk failure | $(N-1) \times \text{Disk Size}$ | Low budget, non-critical (Not recommended for $>4\text{TB}$) |
 | **RAIDZ2** | 4 | **2 disk failures** | $(N-2) \times \text{Disk Size}$ | **Standard for Archives & Warisan Media** |
 | **RAIDZ3** | 5 | 3 disk failures | $(N-3) \times \text{Disk Size}$ | Ultra-high capacity drives ($>16\text{TB}$) |
-
-<div class="tip-box">
-<strong>UKM Warisan Recommendation:</strong> RAIDZ2 provides the optimal balance of capacity and safety during the long resilvering process of high-capacity archival drives.
-</div>
+| **dRAID** | $\ge 8$ | 1–3 parity + virtual spares | $(N - P - S) \times \text{Disk Size}$ | Very large disk arrays; ultra-fast parallel resilvering |
 
 ---
 

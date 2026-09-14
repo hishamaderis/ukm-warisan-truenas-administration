@@ -31,7 +31,7 @@ The training is structured into a 1-day intensive workshop (9:00 AM – 4:00 PM)
 | Time | Session / Module | Core Topics | Hands-On Lab |
 | :--- | :--- | :--- | :--- |
 | **09:00 – 09:30** | **Orientation & Lab Verification** | Environment verification, IP connectivity, WebUI check | Lab Verification |
-| **09:30 – 10:15** | **Module 1: TrueNAS & ZFS Fundamentals** | OpenZFS architecture, Copy-on-Write (CoW), Self-Healing, Bit rot protection, VDEV topologies (Mirror, RAIDZ1, RAIDZ2) | Conceptual Review |
+| **09:30 – 10:15** | **Module 1: TrueNAS & ZFS Fundamentals** | OpenZFS architecture, Copy-on-Write (CoW), Self-Healing, Bit rot protection, VDEV topologies (Mirror, RAIDZ1/2/3, dRAID) | Conceptual Review |
 | **10:15 – 10:30** | ☕ *Morning Refreshment Break* | — | — |
 | **10:30 – 11:30** | **Module 2: Setup, Networking & Storage Pools** | TrueNAS Console Setup, static IP, DNS, storage pool creation, dataset properties (compression, recordsize, quotas) | **Lab 1: Pool & Dataset Setup** |
 | **11:30 – 13:00** | **Module 3: Access Control & Network Sharing (NFS)** | Local Users & Groups, POSIX vs. NFSv4 ACL permissions, UNIX NFS exports, Linux/Windows host mounting | **Lab 2: Access Control & NFS Sharing** |
