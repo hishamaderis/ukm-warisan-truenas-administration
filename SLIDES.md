@@ -164,6 +164,13 @@ $$\text{Raw Physical Disks (HBA)} \longrightarrow \mathbf{OpenZFS} \text{ (Volum
 
 ```text
 +-------------------------------------------------------------+
+|                      DATASETS & ZVOLS                       |
+|  /warisan_pool/documents (Dataset: POSIX/NFSv4 ACL)         |
+|  /warisan_pool/multimedia (Dataset: Custom Recordsize)      |
+|  /warisan_pool/vm-disk-01 (Zvol: Block device for iSCSI)    |
++-------------------------------------------------------------+
+															|
++-------------------------------------------------------------+
 |                        ZFS POOL                             |
 |  (e.g., "warisan_pool" - aggregates capacity and IOPS)      |
 +-------------------------------------------------------------+
@@ -174,12 +181,6 @@ $$\text{Raw Physical Disks (HBA)} \longrightarrow \mathbf{OpenZFS} \text{ (Volum
         +---------------+               +---------------+
          /   |   |   \                   /   |   |   \
        [D1] [D2] [D3] [D4]             [D5] [D6] [D7] [D8]
-+-------------------------------------------------------------+
-|                      DATASETS & ZVOLS                       |
-|  /warisan_pool/documents (Dataset: POSIX/NFSv4 ACL)         |
-|  /warisan_pool/multimedia (Dataset: Custom Recordsize)      |
-|  /warisan_pool/vm-disk-01 (Zvol: Block device for iSCSI)    |
-+-------------------------------------------------------------+
 ```
 
 ---
